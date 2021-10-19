@@ -1,0 +1,115 @@
+header {
+	background:  #BBBBBB;  		/*  cor fundo do header */
+	padding:  20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin:  0 auto;
+}
+
+nav{
+	position:  absolute;
+	top:  110px;
+	right:  0;
+}
+
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px; 		/*espaço para direita*/
+}
+
+nav a {
+	text-transform: uppercase; /*Transformação do texto para deixar tudo em maiusculo*/
+	color: #000000;            /*Pintou de preto */
+	font-weight: bold;         /*Peso da fonte em negrito */
+	font-size: 22px;			/*  tamanho 22px*/
+	text-decoration: none;		/* tiramos o sunblinado */
+
+}
+
+
+/* animação menu */
+
+nav a:hover {
+	color:  #c78c19;
+	text-decoration:  underline;   /*sublinado quando o mouse estiver por cima do link */
+}
+
+#banner{
+	width:  100%;
+}
+
+.principal{
+	background: #cccccc;
+	padding:  30px;
+}
+
+.titulo-principal{
+	padding-left:  20px;
+}
+
+
+.titulo-centralizado {
+	 text-align: center;
+}
+
+
+
+p {
+	text-align: center;
+
+}
+
+
+#missao {
+	font-size: 20px;
+}
+
+
+
+em strong{
+	color: #FF0000;
+}
+
+
+
+.itens{
+	font-style: italic;
+}
+
+
+
+.beneficios{
+	background: #ffffff;
+	paddin: 20px;
+}
+
+
+
+ul{
+	display: inline-block;
+	vertical-align: top;
+	width:  20%;
+	margin-right:  15%;
+}
+
+.imagembeneficios{
+	width:  50%;
+}
+
+
+
+footer {
+	text-align:  center;  			/*centralizar itens do rodape */
+	background: url("bg.jpg"); 		/* cor de fundo da imagem*/
+	padding:  40px;					/* espaçamento interno da imagem */
+}
+
+.copyright {
+	color: #ffffff;
+	font-size: 13px;
+	margin:  20px 0 0;
+}
